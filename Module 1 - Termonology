@@ -1,0 +1,182 @@
+Section 1.1: Web Development Basics
+HTML (HyperText Markup Language)
+
+The standard language for creating web pages.
+It describes the structure of a web page using elements and tags.
+Examples of tags: <html>, <head>, <body>, <div>, <h1>, <p>, <a>, <img>.
+CSS (Cascading Style Sheets)
+
+A stylesheet language used for describing the presentation of a web page written in HTML.
+It controls the layout, colors, fonts, and overall visual appearance.
+Examples of properties: color, font-size, margin, padding, border.
+JavaScript
+
+A programming language used to create dynamic and interactive content on web pages.
+It can manipulate HTML and CSS, handle events, validate forms, and more.
+Examples of features: variables, functions, loops, DOM manipulation.
+Frontend
+
+The part of the website that users interact with directly.
+It includes HTML, CSS, JavaScript, and related frameworks and libraries.
+Examples of frontend frameworks: React, Angular, Vue.js.
+Backend
+
+The server side of a website, managing data, logic, and server-side operations.
+It involves server-side programming languages, databases, and server management.
+Examples of backend technologies: PHP, Node.js, Python, Ruby on Rails.
+Full Stack
+
+Refers to both the frontend and backend aspects of web development.
+A full stack developer has skills in both frontend and backend technologies.
+Examples of full stack frameworks: MEAN stack (MongoDB, Express.js, Angular, Node.js), LAMP stack (Linux, Apache, MySQL, PHP).
+API (Application Programming Interface)
+
+A set of rules that allow different software entities to communicate with each other.
+It enables integration with other systems and services.
+Examples: REST APIs, GraphQL.
+AJAX (Asynchronous JavaScript and XML)
+
+A technique for creating fast and dynamic web pages.
+It allows web pages to be updated asynchronously by exchanging small amounts of data with the server behind the scenes.
+Examples: Updating content without reloading the page, form validation.
+Version Control
+
+A system that records changes to files over time so you can recall specific versions later.
+It is essential for collaboration and tracking changes in code.
+Examples: Git, SVN (Subversion).
+Repository
+
+A central location in which data is stored and managed.
+It is used in version control systems to store code and track changes.
+Examples: GitHub, GitLab, Bitbucket.
+Section 1.2: WordPress Basics
+CMS (Content Management System)
+
+Software that helps users create, manage, and modify content on a website without needing extensive technical knowledge.
+WordPress is the most popular CMS.
+Examples of other CMSs: Joomla, Drupal.
+Themes
+
+Templates that define the look and feel of a WordPress site.
+They control the layout, design, and visual appearance.
+Examples of popular themes: Astra, Divi, OceanWP.
+Plugins
+
+Add-ons that extend the functionality of a WordPress site.
+They can add features like contact forms, SEO tools, e-commerce capabilities, and more.
+Examples of popular plugins: Yoast SEO, WooCommerce, Contact Form 7.
+Widgets
+
+Small blocks that perform specific functions and can be added to widget-ready areas like sidebars and footers.
+Examples of widgets: recent posts, search bar, calendar, categories.
+Shortcode
+
+A WordPress-specific code that lets you do nifty things with very little effort.
+Shortcodes can embed files or create objects that would normally require lots of complex code.
+Examples: [gallery], [video], [audio].
+Custom Post Types
+
+A way to extend WordPress to handle different types of content beyond posts and pages.
+Examples: Portfolio, Testimonials, Products.
+Taxonomy
+
+A way to group posts and custom post types together.
+It includes categories and tags, which are built-in taxonomies in WordPress.
+Examples: Genres, Topics, Types.
+Section 1.3: E-commerce Basics
+WooCommerce
+
+A popular WordPress plugin for creating e-commerce stores.
+It provides features for product management, payments, shipping, and more.
+Examples of WooCommerce extensions: WooCommerce Subscriptions, WooCommerce Memberships.
+Payment Gateway
+
+A service that processes credit card payments for e-commerce sites.
+It securely authorizes credit card transactions between the customer and the merchant.
+Examples of payment gateways: PayPal, Stripe, Square.
+Shopping Cart
+
+Software that allows users to select and purchase products online.
+It keeps track of the items a user wants to buy, calculates the total cost, and facilitates the checkout process.
+Examples of shopping cart software: WooCommerce Cart, Shopify Cart.
+SSL (Secure Sockets Layer)
+
+A standard security protocol for encrypting data between the server and the browser.
+It ensures that data transmitted over the internet remains secure and private.
+SSL certificates are required for secure transactions in e-commerce.
+SKU (Stock Keeping Unit)
+
+A unique identifier for each product and service that can be purchased.
+It helps in managing inventory and tracking sales.
+Example: A unique SKU for a product like "T-Shirt Blue Large" might be "TS-BL-L".
+Inventory Management
+
+The process of ordering, storing, and using a company's inventory.
+It involves managing raw materials, components, and finished products.
+Examples of inventory management plugins for WooCommerce: WooCommerce Stock Manager, ATUM Inventory Management.
+User Experience (UX)
+
+The overall experience a user has when interacting with a website or application.
+It includes aspects like ease of use, accessibility, and overall satisfaction.
+Examples of good UX practices: intuitive navigation, fast load times, mobile responsiveness.
+Conversion Rate
+
+The percentage of visitors to a website who take a desired action, such as making a purchase.
+It is a key metric for measuring the effectiveness of an e-commerce site.
+Examples of actions: completing a purchase, signing up for a newsletter.
+A/B Testing
+
+A method of comparing two versions of a webpage or app against each other to determine which one performs better.
+It involves changing one element at a time and measuring the impact on user behavior.
+Examples: Testing different headlines, images, or call-to-action buttons.
+Customer Relationship Management (CRM)
+
+A technology for managing all your company’s relationships and interactions with potential and existing customers.
+It helps improve business relationships and streamline processes.
+Examples of CRM systems: Salesforce, HubSpot, Zoho CRM.
+Fulfillment
+
+The process of receiving, packaging, and shipping orders to customers.
+It includes managing inventory, handling returns, and providing customer support.
+Examples of fulfillment services: Amazon FBA, ShipBob, Fulfillment by Shopify.
+Dropshipping
+
+A retail fulfillment method where a store doesn’t keep the products it sells in stock.
+Instead, the store purchases the item from a third party and has it shipped directly to the customer.
+Examples of dropshipping platforms: Oberlo, AliExpress, Spocket.
+Merchant Account
+
+A type of bank account that allows businesses to accept payments via credit and debit cards.
+It is essential for processing online transactions.
+Examples of merchant account providers: PayPal, Square, Stripe.
+Section 1.4: Hosting and Domain Basics
+Web Hosting
+
+A service that provides the infrastructure and resources for hosting a website.
+Types of web hosting: Shared Hosting, VPS Hosting, Dedicated Hosting, Cloud Hosting.
+Examples of web hosting providers: Bluehost, SiteGround, HostGator.
+Domain Name
+
+The address where users can access your website, such as example.com.
+It's registered through domain registrars.
+Examples of domain registrars: GoDaddy, Namecheap, Google Domains.
+DNS (Domain Name System)
+
+The system that translates domain names into IP addresses.
+It ensures that users can access websites using human-readable addresses.
+Examples of DNS records: A record, CNAME record, MX record.
+cPanel
+
+A web hosting control panel that provides a graphical interface and automation tools designed to simplify the process of hosting a website.
+It includes tools for managing files, databases, domains, and email accounts.
+Examples of cPanel features: File Manager, phpMyAdmin, Email Accounts.
+FTP (File Transfer Protocol)
+
+A standard network protocol used to transfer files from one host to another over a TCP-based network, such as the Internet.
+It is commonly used for uploading files to a web server.
+Examples of FTP clients: FileZilla, WinSCP, Cyberduck.
+SSL Certificate
+
+A digital certificate that authenticates a website's identity and enables an encrypted connection.
+It is essential for securing data transmitted between the server and the client.
+Examples of SSL providers: Let's Encrypt, Comodo, DigiCert.
