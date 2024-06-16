@@ -1,8 +1,8 @@
-# PHP Word Press E-com introduction Course
+# PHP-WP-Ecom-Course
 
 Hi Gina,
 
-Welcome to the PHP-WP-Ecom-Course! This is an introduction to PHP web development, WordPress, and building your own online store using WordPress and its extensive list of plugins & handling the backend operations of the database/server . I've designed this course to guide you through the basics of web development, setting up a WordPress site, and utilizing plugins to create a fully functional e-commerce store.
+Welcome to the PHP-WP-Ecom-Course! This is an introduction to PHP web development, WordPress, and building your own online store using WordPress and its extensive list of plugins & handling the backend operations of the database/server. I've designed this course to guide you through the basics of web development, setting up a WordPress site, and utilizing plugins to create a fully functional e-commerce store.
 
 ## Table of Contents
 
@@ -100,13 +100,129 @@ This course is designed specifically for you to learn about web development, Wor
 
 ## Course Modules
 
-- [Module 1: Introduction to Web Development](docs/module1.md)
-- [Module 2: Getting Started with WordPress](docs/module2.md)
-- [Module 3: Creating and Managing Content](docs/module3.md)
-- [Module 4: Customizing Your Site](docs/module4.md)
-- [Module 5: Building an Online Store](docs/module5.md)
-- [Module 6: Enhancing Your Store with Plugins](docs/module6.md)
-- [Module 7: Maintaining Your Site](docs/module7.md)
+### Module 1: Introduction to Web Development
+
+#### Section 1.1: Web Development Basics
+- HTML (HyperText Markup Language)
+- CSS (Cascading Style Sheets)
+- JavaScript
+- Frontend vs. Backend Development
+- Full Stack Development
+
+#### Section 1.2: HTML Basics
+- Structure of an HTML Document
+- Common HTML Elements
+- Creating Links and Images
+- Forms and Input Elements
+
+#### Section 1.3: CSS Basics
+- CSS Syntax and Selectors
+- Styling Text and Elements
+- Layout Techniques (Flexbox, Grid)
+- Responsive Design
+
+#### Section 1.4: JavaScript Basics
+- JavaScript Syntax and Variables
+- Functions and Events
+- Manipulating the DOM
+- Basic Animations
+
+### Module 2: Getting Started with WordPress
+
+#### Section 2.1: What is WordPress?
+- Overview of WordPress
+- Benefits of Using WordPress
+- WordPress.com vs WordPress.org
+
+#### Section 2.2: Setting up WordPress
+- Installing WordPress Locally
+- Configuring Basic Settings
+- Creating Your First Post
+
+#### Section 2.3: Exploring the WordPress Dashboard
+- Dashboard Overview
+- Managing Posts and Pages
+- Configuring WordPress Settings
+
+### Module 3: Creating and Managing Content
+
+#### Section 3.1: Creating Pages and Posts
+- Differences Between Pages and Posts
+- Creating a New Post
+- Using Categories and Tags
+
+#### Section 3.2: Managing Media
+- Uploading Images and Videos
+- Using the Media Library
+- Optimizing Media for the Web
+
+### Module 4: Customizing Your Site
+
+#### Section 4.1: Choosing and Installing Themes
+- Finding the Right Theme
+- Installing a Theme
+- Customizing Theme Settings
+
+#### Section 4.2: Customizing with CSS
+- Using the Theme Customizer
+- Adding Custom CSS
+- Using Theme Customization Plugins
+
+#### Section 4.3: Creating Menus and Widgets
+- Creating and Managing Menus
+- Adding Widgets to Your Site
+- Using Custom Widgets
+
+### Module 5: Building an Online Store
+
+#### Section 5.1: Introduction to WooCommerce
+- What is WooCommerce?
+- Installing WooCommerce
+- Configuring WooCommerce Settings
+
+#### Section 5.2: Adding Products
+- Creating Simple Products
+- Creating Variable Products
+- Managing Product Categories and Tags
+
+#### Section 5.3: Managing Orders and Customers
+- Processing Orders
+- Managing Customer Accounts
+- Using Coupons and Discounts
+
+### Module 6: Enhancing Your Store with Plugins
+
+#### Section 6.1: Must-Have Plugins for E-commerce
+- SEO Optimization Plugins
+- Security Plugins
+- Performance Plugins
+
+#### Section 6.2: SEO Optimization
+- Installing Yoast SEO
+- Configuring SEO Settings
+- Using SEO Tools and Analytics
+
+#### Section 6.3: Security and Backup
+- Installing Security Plugins
+- Configuring Security Settings
+- Setting Up Regular Backups
+
+### Module 7: Maintaining Your Site
+
+#### Section 7.1: Regular Updates and Maintenance
+- Updating WordPress, Themes, and Plugins
+- Scheduling Regular Maintenance Tasks
+- Monitoring Site Performance
+
+#### Section 7.2: Troubleshooting Common Issues
+- Fixing Common WordPress Errors
+- Debugging PHP Errors
+- Restoring from Backups
+
+#### Section 7.3: Best Practices for Site Performance
+- Optimizing Images and Media
+- Using Caching Plugins
+- Implementing Content Delivery Networks (CDNs)
 
 ## Resources
 
@@ -119,7 +235,7 @@ This course is designed specifically for you to learn about web development, Wor
 
 If you encounter any issues or have any questions, please feel free to reach out to me for support:
 
-- Email: alexander@wp-ecom-course.com
+- Email: amacleod@blackdiamondtherapy.ca
 - Community Forum: [WP-Ecom-Course Forum](https://forum.wp-ecom-course.com)
 
 ## License
