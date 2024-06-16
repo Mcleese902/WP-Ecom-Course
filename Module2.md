@@ -1,0 +1,189 @@
+Introduction to Web Development
+This module introduces the basics of web development, including HTML, CSS, JavaScript, and an overview of frontend and backend development. By the end of this module, you'll have a fundamental understanding of how web development works and the essential tools and technologies involved.
+
+Section 2.1: HTML Basics
+2.1.1: Structure of an HTML Document
+
+HTML documents are structured using elements and tags.
+The basic structure includes:
+html
+Copy code
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+  </body>
+</html>
+Key elements: <!DOCTYPE>, <html>, <head>, <title>, <body>.
+2.1.2: Common HTML Elements
+
+Headings: <h1> to <h6>.
+html
+Copy code
+<h1>Main Heading</h1>
+<h2>Subheading</h2>
+Paragraphs: <p>.
+html
+Copy code
+<p>This is a paragraph.</p>
+Links: <a>.
+html
+Copy code
+<a href="https://example.com">This is a link</a>
+Images: <img>.
+html
+Copy code
+<img src="image.jpg" alt="Description of image">
+2.1.3: Creating Links and Images
+
+Links: Use the href attribute to specify the URL.
+html
+Copy code
+<a href="https://example.com">Visit Example</a>
+Images: Use the src attribute to specify the image source and alt for alternative text.
+html
+Copy code
+<img src="image.jpg" alt="An example image">
+2.1.4: Forms and Input Elements
+
+Forms: Used to collect user input.
+html
+Copy code
+<form action="/submit_form" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <input type="submit" value="Submit">
+</form>
+Input types: text, password, email, submit, etc.
+Section 2.2: CSS Basics
+2.2.1: CSS Syntax and Selectors
+
+CSS syntax: Consists of selectors and declaration blocks.
+css
+Copy code
+selector {
+  property: value;
+}
+Selectors: Target HTML elements to apply styles.
+css
+Copy code
+p {
+  color: blue;
+}
+2.2.2: Styling Text and Elements
+
+Text properties: color, font-size, font-family, text-align.
+css
+Copy code
+h1 {
+  color: red;
+  font-size: 24px;
+}
+Box model: margin, border, padding, width, height.
+css
+Copy code
+div {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+}
+2.2.3: Layout Techniques (Flexbox, Grid)
+
+Flexbox: A layout model for arranging elements in a flexible and predictable way.
+css
+Copy code
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  flex: 1;
+}
+Grid: A layout system for creating complex, responsive layouts.
+css
+Copy code
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.grid-item {
+  background-color: lightblue;
+}
+2.2.4: Responsive Design
+
+Media queries: Used to apply styles based on screen size.
+css
+Copy code
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+Section 2.3: JavaScript Basics
+2.3.1: JavaScript Syntax and Variables
+
+Variables: var, let, const.
+javascript
+Copy code
+let name = "John";
+const age = 30;
+2.3.2: Functions and Events
+
+Functions: Blocks of code designed to perform a particular task.
+javascript
+Copy code
+function greet() {
+  alert("Hello, World!");
+}
+Events: Actions that occur when the user interacts with the page.
+javascript
+Copy code
+document.getElementById("myButton").onclick = function() {
+  alert("Button clicked!");
+};
+2.3.3: Manipulating the DOM
+
+DOM (Document Object Model): The structure of an HTML document as objects.
+
+
+document.getElementById("demo").innerHTML = "Hello, World!";
+Common DOM methods: getElementById, querySelector, createElement.
+
+2.3.4: Basic Animations
+Using CSS and JavaScript to create simple animations.
+
+
+
+## css
+.animated {
+  transition: transform 0.5s;
+}
+.animated:hover {
+  transform: scale(1.2);
+}
+Section 2.4: Overview of Frontend and Backend Development
+2.4.1: Frontend Development
+
+Focuses on the user interface and user experience.
+Involves HTML, CSS, JavaScript, and frontend frameworks.
+Example frameworks: React, Angular, Vue.js.
+2.4.2: Backend Development
+
+Manages server-side logic, databases, and application integration.
+Involves server-side programming languages and databases.
+Example technologies: PHP, Node.js, Python, Ruby on Rails.
+2.4.3: Full Stack Development
+
+Combines both frontend and backend development.
+Requires knowledge of both client-side and server-side technologies.
+Example stacks: MEAN (MongoDB, Express.js, Angular, Node.js), LAMP (Linux, Apache, MySQL, PHP).
+This module provides a comprehensive introduction to the basics of web development. You'll learn about the structure of HTML documents,
+how to style them with CSS, and add interactivity using JavaScript. Additionally, 
+you'll get an overview of frontend and backend development, which will serve as a foundation for building more complex web applications.
