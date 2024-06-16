@@ -1,0 +1,133 @@
+5.1.1: Overview of WordPress
+
+Definition and Purpose:
+WordPress is a free and open-source content management system (CMS) written in PHP and paired with a MySQL or MariaDB database.
+It is the most popular CMS, powering over 40% of all websites on the internet.
+History and Evolution:
+Initially released in 2003 by Matt Mullenweg and Mike Little as a fork of b2/cafelog.
+Has grown significantly with a vast ecosystem of themes, plugins, and a large community.
+Key Features:
+User-friendly interface.
+Extensive theme and plugin support.
+SEO-friendly.
+Highly customizable with a large community support.
+5.1.2: Benefits of Using WordPress
+
+Ease of Use:
+Intuitive interface for creating and managing content.
+No coding required for basic operations.
+Flexibility:
+Suitable for various types of websites (blogs, business sites, e-commerce, portfolios).
+Supports a wide range of themes and plugins.
+SEO Friendly:
+Built-in SEO features.
+SEO plugins available for enhanced optimization.
+Community Support:
+Extensive documentation and forums.
+Thousands of themes and plugins developed by the community.
+5.1.3: WordPress.com vs WordPress.org
+
+WordPress.com:
+Hosted solution managed by Automattic.
+Limited customization and plugin options unless you opt for paid plans.
+Suitable for beginners and small websites.
+WordPress.org:
+Self-hosted solution where you have complete control over your site.
+Full access to themes, plugins, and customization options.
+Requires hosting and domain setup but offers more flexibility and power.
+Section 5.2: Setting Up WordPress
+5.2.1: Installing WordPress Locally
+
+Prerequisites:
+Ensure XAMPP or a similar local development environment is installed and running.
+Downloading WordPress:
+Visit wordpress.org and download the latest version of WordPress.
+Extracting WordPress Files:
+Extract the downloaded WordPress files into the htdocs directory in XAMPP (or equivalent for other setups).
+Example directory: C:\xampp\htdocs\wordpress.
+5.2.2: Creating a Database for WordPress
+
+Accessing phpMyAdmin:
+Navigate to http://localhost/phpmyadmin in your web browser.
+Creating a New Database:
+Click on the "Databases" tab.
+Enter wordpress as the database name and click "Create".
+Setting Up Database User:
+Optionally, create a new database user with specific privileges for enhanced security.
+5.2.3: Running the WordPress Installation Script
+
+Starting the Installation:
+Navigate to http://localhost/wordpress in your web browser.
+Configuring wp-config.php:
+Enter database details (database name, username, password, and host).
+Save the configuration file.
+Completing the Installation:
+Follow the on-screen instructions to complete the installation.
+Set up site title, admin username, password, and email.
+5.2.4: Configuring Basic Settings
+
+General Settings:
+Navigate to "Settings" > "General".
+Configure site title, tagline, URL, email address, and timezone.
+Permalinks:
+Navigate to "Settings" > "Permalinks".
+Choose a permalink structure (e.g., Post name).
+Section 5.3: Exploring the WordPress Dashboard
+5.3.1: Dashboard Overview
+
+Dashboard Home:
+Provides an overview of your site, including recent activity, site health, and quick drafts.
+Admin Toolbar:
+Persistent toolbar at the top of the screen for quick access to key areas.
+Main Menu:
+Left sidebar with links to all the major sections of the admin area (Posts, Media, Pages, Comments, Appearance, Plugins, Users, Tools, Settings).
+5.3.2: Managing Posts and Pages
+
+Creating and Editing Posts:
+Navigate to "Posts" > "Add New".
+Enter the title and content using the Block Editor.
+Add categories, tags, and a featured image.
+Publish or save as draft.
+Creating and Editing Pages:
+Navigate to "Pages" > "Add New".
+Enter the title and content using the Block Editor.
+Publish or save as draft.
+Organizing Content:
+Use categories and tags for posts to organize content.
+Create hierarchical pages using parent and child pages.
+5.3.3: Configuring WordPress Settings
+
+General Settings:
+Site title, tagline, WordPress address, site address, email address, membership, new user default role, timezone, date format, time format, week starts on.
+Reading Settings:
+Home page displays (latest posts or a static page), blog pages show at most, syndication feeds show the most recent, for each post in a feed, include, search engine visibility.
+Discussion Settings:
+Default article settings, other comment settings, email me whenever, before a comment appears, comment moderation, comment blacklist, avatars.
+Media Settings:
+Image sizes (thumbnail, medium, large), uploading files.
+Permalink Settings:
+Common settings (plain, day and name, month and name, numeric, post name, custom structure).
+Module 5 Exercises
+Exercise 5.1: Install WordPress Locally
+
+Download and extract WordPress.
+Create a new MySQL database named wordpress.
+Run the WordPress installation script and complete the setup.
+Exercise 5.2: Configure Basic Settings
+
+Set your site title, tagline, and other general settings.
+Configure permalinks to use the "Post name" structure.
+Exercise 5.3: Create Your First Post
+
+Create a new post titled "Hello World".
+Add some content, assign it to a category, and add tags.
+Publish the post and view it on your site.
+Exercise 5.4: Create and Organize Pages
+
+Create a new page titled "About Me".
+Add content and publish the page.
+Create a hierarchical page structure with a parent page and a child page.
+Exercise 5.5: Explore the WordPress Dashboard
+
+Navigate through the different sections of the WordPress dashboard.
+Familiarize yourself with the various settings and options available.
