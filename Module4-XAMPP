@@ -1,0 +1,121 @@
+Module 4: Installing and Configuring XAMPP
+This module will guide you through installing and configuring XAMPP, a local development environment that includes Apache, MySQL, and PHP. By the end of this module, you'll have a fully functional local web server to develop and test your WordPress site.
+
+Section 4.1: Introduction to XAMPP
+4.1.1: What is XAMPP?
+
+XAMPP is a free and open-source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB (formerly MySQL), and interpreters for scripts written in the PHP and Perl programming languages.
+4.1.2: Benefits of Using XAMPP
+
+Easy installation and configuration.
+Includes all necessary components for local development.
+Supports multiple platforms (Windows, macOS, Linux).
+Ideal for testing and development purposes.
+Section 4.2: Installing XAMPP
+4.2.1: Downloading XAMPP
+
+Go to the XAMPP download page.
+Choose the version suitable for your operating system (Windows, macOS, or Linux).
+Click "Download" and save the installer to your computer.
+4.2.2: Installing XAMPP on Windows
+
+Run the XAMPP installer.
+Follow the installation wizard steps.
+Select the components you want to install (Apache, MySQL, PHP, phpMyAdmin, etc.).
+Choose the installation directory (default is C:\xampp).
+Complete the installation and launch the XAMPP Control Panel.
+4.2.3: Installing XAMPP on macOS
+
+Open the downloaded XAMPP .dmg file.
+Drag the XAMPP folder to your Applications folder.
+Open the XAMPP application and start the services from the control panel.
+4.2.4: Installing XAMPP on Linux
+
+Open a terminal and navigate to the directory where you downloaded the XAMPP installer.
+Make the installer executable:
+sh
+Copy code
+sudo chmod +x xampp-linux-x64-x.x.x-0-installer.run
+Run the installer:
+sh
+Copy code
+sudo ./xampp-linux-x64-x.x.x-0-installer.run
+Follow the installation wizard steps to complete the installation.
+Section 4.3: Configuring XAMPP
+4.3.1: Starting Apache and MySQL Services
+
+Open the XAMPP Control Panel.
+Start the Apache and MySQL services by clicking the "Start" buttons next to them.
+Verify that the services are running by checking the status indicators.
+4.3.2: Configuring phpMyAdmin
+
+phpMyAdmin is a web-based interface for managing MySQL databases.
+Access phpMyAdmin by navigating to http://localhost/phpmyadmin in your web browser.
+Use the default username root with no password to log in.
+4.3.3: Creating a MySQL Database
+
+In phpMyAdmin, click on the "Databases" tab.
+Enter a name for your new database and click "Create".
+Your new database is now ready to be used.
+4.3.4: Configuring Apache
+
+The Apache configuration file is located at C:\xampp\apache\conf\httpd.conf on Windows and /Applications/XAMPP/xamppfiles/etc/httpd.conf on macOS.
+Open the configuration file in a text editor.
+Common configurations include setting the DocumentRoot and configuring virtual hosts.
+4.3.5: Setting Up Virtual Hosts
+
+Virtual hosts allow you to run multiple websites on a single server.
+Open the virtual hosts configuration file located at C:\xampp\apache\conf\extra\httpd-vhosts.conf on Windows and /Applications/XAMPP/xamppfiles/etc/extra/httpd-vhosts.conf on macOS.
+Add the following configuration to set up a virtual host:
+apache
+Copy code
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/yourproject"
+    ServerName yourproject.local
+    <Directory "C:/xampp/htdocs/yourproject">
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
+Edit your hosts file to map the virtual host name to localhost.
+On Windows, open C:\Windows\System32\drivers\etc\hosts in a text editor.
+On macOS, open /etc/hosts in a text editor.
+Add the following line:
+plaintext
+Copy code
+127.0.0.1    yourproject.local
+Section 4.4: Testing Your Local Web Server
+4.4.1: Creating a Test PHP File
+
+Navigate to your XAMPP htdocs directory (C:\xampp\htdocs on Windows or /Applications/XAMPP/xamppfiles/htdocs on macOS).
+Create a new file named test.php with the following content:
+php
+Copy code
+<?php
+phpinfo();
+?>
+Save the file and navigate to http://localhost/test.php in your web browser.
+You should see the PHP information page, indicating that your local web server is working correctly.
+4.4.2: Troubleshooting Common Issues
+
+If Apache or MySQL fails to start, check the XAMPP Control Panel for error messages.
+Common issues include port conflicts (make sure ports 80 and 443 are not being used by other applications) and incorrect configuration settings.
+Module 4 Exercises
+Exercise 4.1: Install XAMPP
+
+Download and install XAMPP on your computer.
+Start the Apache and MySQL services using the XAMPP Control Panel.
+Exercise 4.2: Create a MySQL Database
+
+Access phpMyAdmin and create a new MySQL database named wordpress.
+Verify that the database was created successfully.
+Exercise 4.3: Configure a Virtual Host
+
+Set up a virtual host for a new project.
+Edit the Apache configuration and hosts file as needed.
+Verify that the virtual host is accessible in your web browser.
+Exercise 4.4: Create and Test a PHP File
+
+Create a new PHP file in the htdocs directory.
+Write a simple PHP script to display your name and the current date and time.
+Navigate to the PHP file in your web browser and verify the output.
